@@ -1,0 +1,80 @@
+.root {
+  height: 100vh;
+  width: 100vw;
+}
+.header-image {
+  background-image: url("../../Assets/bgg.png");
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.form-root {
+  margin-top: -100px;
+}
+.top-tag-text {
+  width: 100px;
+  border: solid #00caff 1px;
+  padding: 15px 40px 15px 40px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.top-tag-outer-border {
+  margin: auto;
+  text-align: center;
+  margin: 50px;
+}
+.single-div {
+  padding: 30px;
+}
+.form-block-outside {
+  margin: auto;
+  width: 500px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.top-tag-inner-border {
+  width: 100px;
+  border: solid #9deaff 1px;
+  padding: 5px;
+  padding: 30px 10px 25px 10px;
+  border-radius: 35px;
+}
+.uploadPage-instruction-text {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  background: #f6f6f6;
+  border-radius: 10px;
+  font-size: 17px;
+  padding: 8px 15px 8px 15px;
+  color: #5c636e;
+  text-align: center;
+  font-weight: 500;
+}
+.uploadPage-hero-btn {
+  background-color: transparent;
+  border: solid #00caff 2px;
+  color: #00caff;
+  padding: 8px 20px 8px 20px;
+  cursor: pointer;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+input[type="file"] {
+  display: none;
+}
+.choose-file {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.choosen-file-name {
+  font-weight: 600;
+  color: #cacaca !important;
+}
