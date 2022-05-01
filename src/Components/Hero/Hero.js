@@ -10,7 +10,7 @@ const Hero = () => {
                     <span className='line-two'>Intelligence-enabled</span>
                     <span className='line-three'><span className='ecg-color'>ECG </span>System</span>
                 </div>
-                <Link to='register'><button className='hero-btn'>START</button></Link>
+                <Link to='authorization'><button className='hero-btn'>START</button></Link>
             </div>
         </div>
     )

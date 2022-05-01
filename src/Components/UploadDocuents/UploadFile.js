@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './UploadFile.css'
 import IconChoosenFile from '../../Assets/icons/choosenfile.png';
+import { Link } from 'react-router-dom';
 const UploadFile = () => {
     const [fileName, setFileName] = useState("non file choosen")
     const handleFileName = (e) => {
@@ -12,6 +13,10 @@ const UploadFile = () => {
             </div>
             <div className='form-root'>
                 <div className='form-block-outside'>
+                    <div style={{ display: "flex", justifyContent: "end", padding: "10px 10px 0 0", fontSize: "15px" }}>
+                        <span style={{ padding: "10px", cursor: "pointer" }}><Link to="/profile" style={{ textDecoration: "none", color: "black" }}>My Profile</Link></span>
+                        <span style={{ padding: "10px", cursor: "pointer" }}><Link to="/logout" style={{ textDecoration: "none", color: "black" }}>Logout</Link></span>
+                    </div>
                     <div className='single-div'>
                         <div className='top-tag-outer-border'>
                             <span className='top-tag-inner-border'><span className='top-tag-text'>Upload Page</span></span>

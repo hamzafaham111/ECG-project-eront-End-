@@ -84,7 +84,7 @@ const Register = () => {
                 </div>
             </div>
             <div className='form-btn-div' style={{}}>
-                <Link to="uploadfile"><button className='form-btn'>REGISTER</button></Link>
+                <Link to="/uploadfile"><button className='form-btn'>REGISTER</button></Link>
             </div>
             <p className='instruction-text'>After submission you will receive an email
                 indicating your registration request status.</p>

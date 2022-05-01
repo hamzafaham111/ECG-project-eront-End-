@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './PatientResult.css';
 const PatientResult = () => {
     return (
@@ -14,6 +15,9 @@ const PatientResult = () => {
                         <div style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
                             <span style={{ fontSize: "14px", color: "#585252", marginBottom: "5px", fontWeight: "500" }}>Patient Result</span>
                             <div style={{ background: "#F8F8F8", width: "100%", height: "50px" }}></div>
+                        </div>
+                        <div style={{ display: "flex", justifyContent: "center" }}>
+                            <Link to="/uploadfile"> <button className='back-btn'>Back</button></Link>
                         </div>
                     </div>
                 </div >
